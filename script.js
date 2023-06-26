@@ -12,7 +12,7 @@ function onYouTubeIframeAPIReady() {
     playerVars: {
       listType: "user_uploads",
       list: "DrossRotzank",
-      controls: 0,
+      /* controls: 0, */
       loop: 1,
       autoplay: 1,
       disablekb: 1,
