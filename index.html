@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Dross TV</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="user-scalable=yes" />
+
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+
+  <body scroll="no">
+    <header>
+      <h1>Dross TV</h1>
+    </header>
+    <div id="container">
+      <div id="child">
+        <div id="player"></div>
+      </div>
+    </div>
+
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 24 24"
+      fill="#ffffff"
+      width="24px"
+      height="24px"
+    >
+      <path d="M0 0h24v24H0z" fill="none" />
+      <path d="M8 5v14l11-7z" class="play-icon" />
+      <path d="M6 4h4v16H6zm8 0h4v16h-4z" class="pause-icon" />
+    </svg>
+
+    
+
+    <input type="button" value="click to toggle fullscreen" onclick="toggleFullScreen(document.body)">
+
+    <script src="/script.js"></script>
+  </body>
+</html>
